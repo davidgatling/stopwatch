@@ -18,3 +18,5 @@
 
 #Credits
 -This web program was built by Gatling.
+
+To try out the Stopwatch web program, please visit the [Stopwatch](https://davidgatling.github.io/stopwatch/).
