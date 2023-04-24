@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+body {
+  height: 100%;
+  background: #000;
+  transform: scale(2);
+  transform-origin: center center;
+  overflow: hidden;
+  font-family: "Tilt Prism", cursive;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+}
+.time {
+  height: 40px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40vw;
+  overflow: hidden;
+  background-color: #222121;
+  width: 300px;
+  color: #e2e2e2;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 1px 1px grey;
+}
+.button {
+  width: 60px;
+  height: 20px;
+  border-radius: 10px;
+  font-size: 10px;
+  color: #fff;
+  border: none;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.button:focus {
+  outline: none;
+}
+.button[value="start"] {
+  background-color: #2ecc71;
+}
+
+.button[value="stop"] {
+  background-color: #e74c3c;
+}
+
+.button[value="reset"] {
+  background-color: #3498db;
+}
